@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica, 'Times New Roman', Arial, sans-serif;
+    font-size:$m-size;
+    color: #333333;
+    line-height: 1.6;
+   
+}
+button{
+    cursor: pointer;
+}
+button:disabled{
+    cursor: default;
+}
+
+.is-active{
+    font-weight: bold;
+}
